@@ -1,5 +1,10 @@
+from data_loaders.websites import load_urls
+
+
 def main():
-  print("hello world!")
+    urls = load_urls()
+    print(f'got {len(urls)} urls')
+
 
 if __name__ == '__main__':
-  main()
+    main()
