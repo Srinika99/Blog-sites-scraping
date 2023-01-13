@@ -17,3 +17,10 @@ CUSTOMIZATION
 
 •keywords: a list of keywords that the script will match against the article titles.
 
+•Scraping Logic: The script uses the requests library to retrieve the HTML of the websites specified in the website list and the BeautifulSoup library to     parse the HTML and extract the titles and links of the articles.
+
+•Matching Logic: The script checks if the titles of the articles match any of the keywords specified in the keyword list and saves the matched articles to a reading list.
+
+OUTPUT
+
+The script prints the matched articles with their title and links in the following format: "Title of article (link)".
