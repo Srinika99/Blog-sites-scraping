@@ -1,6 +1,6 @@
 # BLOG SCRAPER v1
 
-This project is a Python script that uses the requests and BeautifulSoup libraries to scrape the titles and links of recently posted articles from a set of websites (in this case, freeCodeCamp and Hacker News) and saves them to a reading list if they match certain keywords.
+This project is a Python script that uses the requests and BeautifulSoup libraries to scrape the titles and links of recently posted articles from a set of websites and saves them to a reading list if they match certain keywords.
 
 ## REQUIREMENTS
 
