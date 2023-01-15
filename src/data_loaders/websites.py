@@ -4,7 +4,6 @@ import os
 
 def load_urls():
     dirname = os.path.dirname(__file__)
-    print(dirname)
     urls_with_header = []
 
     with open(f"{dirname}/./../../data/websites.csv", 'r', encoding='UTF-8') as file:
